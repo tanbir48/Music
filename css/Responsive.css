@@ -1,0 +1,514 @@
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  header {
+    background-image: url(../img/Johndoe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    min-width: 50vw;
+  }
+  header nav li a {
+    text-decoration: none;
+    color: #727272;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header nav li a {
+    text-decoration: none;
+    color: #727272;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    font-size: 11px;
+  }
+  .discography h1 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    background-image: url(../img/Johndoe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    min-width: 50vw;
+  }
+  header nav li a {
+    text-decoration: none;
+    color: #727272;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .left-item {
+    width: 40%;
+  }
+  .right-item {
+    width: 40%;
+  }
+  .concert-tours h1 {
+    font-size: 27px;
+  }
+  .smokemirror .inner-item-left {
+    width: 40%;
+  }
+  .smokemirror .inner-item-right {
+    width: 40%;
+  }
+  .smokemirror .inner-item-details-left {
+    width: 40%;
+  }
+  .smokemirror .inner-item-details-right {
+    width: 40%;
+  }
+  .text h1 {
+    font-size: 27px;
+  }
+  .letter .inner-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .letter a {
+    text-decoration: none;
+    padding: 10px 28px;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .image-box .first-row {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+  .image-box .first-row .item-one {
+    width: 22%;
+    height: 100%;
+    margin: 10px;
+    background-image: url(../img/01.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    min-height: 40vh;
+  }
+  .image-box .first-row .item-two {
+    width: 22%;
+    height: 100%;
+    margin: 10px;
+    background-image: url(../img/02.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    min-height: 42vh;
+  }
+  .image-box .first-row .item-three {
+    width: 22%;
+    height: 100%;
+    margin: 10px;
+    background-image: url(../img/03.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    min-height: 42vh;
+  }
+  .second-row {
+    padding: 0px;
+  }
+  .second-row .item-one {
+    width: 22%;
+    height: 100%;
+    margin: 10px;
+    background-image: url(../img/04.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    min-height: 40vh;
+  }
+  .second-row .item-two {
+    width: 22%;
+    height: 100%;
+    margin: 10px;
+    background-image: url(../img/05.png);
+    background-position: center;
+    background-size: 100% 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    min-height: 40vh;
+  }
+  .second-row .item-three {
+    width: 22%;
+    height: 100%;
+    margin: 10px;
+    background-image: url(../img/06.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    min-height: 40vh;
+  }
+  .upcoming .horizontal {
+    border-bottom: 2px solid black;
+    max-width: 25%;
+    margin-bottom: 10px;
+  }
+  .upcoming .inner-item .left-item {
+    width: 40%;
+  }
+  .upcoming .inner-item .right-item {
+    width: 40%;
+  }
+  .history h1 {
+    font-size: 27px;
+  }
+  .inner-date h2 {
+    font-size: 22px;
+  }
+  footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    background-image: url(../img/tree-footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 630px) {
+  header nav {
+    justify-content: start;
+  }
+  #menu {
+    display: none;
+    margin-top: 20px;
+  }
+  header nav .mobile-view-bar {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .hellandsilence {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .discography {
+    padding: 40px 10px;
+  }
+  .discography p {
+    padding-top: 15px;
+    max-width: 100%;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .left-item {
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+  }
+  .right-item {
+    width: 100%;
+    padding: 2px;
+    margin: 0px;
+  }
+  .nightvision {
+    display: block;
+    padding: 10px;
+  }
+  .thealbum {
+    display: block;
+    padding: 10px;
+  }
+  .smokemirror {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/Shore.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 10px;
+  }
+  .smokemirror .inner-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+  .smokemirror .inner-item-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .smokemirror .inner-item .inner-item-left {
+    width: 100%;
+    padding: 2px;
+  }
+  .smokemirror .inner-item .inner-item-right {
+    width: 100%;
+  }
+  .smokemirror .inner-item-details {
+    display: block;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .smokemirror .inner-item-details-left {
+    width: 100%;
+    padding: 2px;
+  }
+  .concert-tours p {
+    padding-top: 15px;
+    max-width: 101%;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #798285;
+    font-size: 13px;
+  }
+  .text h1 {
+    font-size: 19px;
+  }
+  .text p {
+    color: #798285;
+    padding-top: 15px;
+    max-width: 100%;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 13px;
+  }
+  .letter .inner-item-first {
+    display: block;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .inner-item-second {
+    display: block;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .inner-item-third {
+    display: block;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .slider-item .text-box h3 {
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .slider-item .text-box p {
+    font-size: 13px;
+    max-width: 100%;
+    line-height: 1.3rem;
+  }
+  .image-box {
+    padding: 50px 10px;
+  }
+  .image-box .first-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-box .first-row .item-one {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-image: url(../img/01.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    min-height: 40vh;
+  }
+  .image-box .first-row .item-two {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-image: url(../img/02.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    min-height: 42vh;
+  }
+  .image-box .first-row .item-three {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-image: url(../img/03.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    min-height: 42vh;
+  }
+  .image-box h3 {
+    font-weight: 400;
+    padding: 30px 10px;
+  }
+  .image-box p {
+    font-size: 12px;
+    padding: 15px;
+    color: #798285;
+    line-height: 1.4rem;
+  }
+  .image-box h5 {
+    font-weight: 500;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  .second-row {
+    display: block;
+    justify-content: center;
+  }
+  .second-row .item-one {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-image: url(../img/04.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+    min-height: 40vh;
+  }
+  .second-row .item-two {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-image: url(../img/05.png);
+    background-position: center;
+    background-size: 100% 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    min-height: 40vh;
+  }
+  .second-row .item-three {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-image: url(../img/06.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+    min-height: 40vh;
+  }
+  .letter .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+  }
+  .letter .inner-item-third .left-item {
+    background-color: #f5f6f6;
+    margin: 0px;
+    padding: 0px;
+  }
+  .upcoming {
+    background-image: url(../img/bridge.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    padding: 10px;
+  }
+  .upcoming .inner-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .upcoming .right-item h1 {
+    font-size: 14px;
+  }
+  .upcoming .inner-item .right-item {
+    width: 100%;
+  }
+  .history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+  }
+  .history p {
+    padding-top: 15px;
+    max-width: 100%;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .inner-date h2 {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .date p {
+    position: absolute;
+    top: 11%;
+    left: 2%;
+    max-width: 100%;
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/tree-footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+  }
+  footer .right-item h1 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  footer input {
+    background: transparent;
+  }
+  .image-box hr {
+    max-width: 80%;
+    margin-left: 15px;
+  }
+}

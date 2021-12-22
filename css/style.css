@@ -1,0 +1,695 @@
+/* Google font styling link */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style for header */
+header {
+  background-image: url(../img/Johndoe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 110vh;
+}
+header nav {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  background-color: #e5e6e65d;
+}
+header nav .mobile-view-bar {
+  display: none;
+}
+header nav #mobile-view-cross {
+  display: none;
+}
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  list-style: none;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #727272;
+  padding-bottom: 5px;
+  margin-right: 20px;
+}
+header nav li a:hover {
+  border-bottom: 2px solid black;
+}
+
+header nav .button {
+  display: flex;
+}
+/* End */
+
+/* style for discovery section */
+.discography {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.discography h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.discography p {
+  padding-top: 15px;
+  max-width: 50%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+/* End */
+
+/* style for hell and silence section */
+.hellandsilence {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.left-item {
+  width: 33%;
+  margin: 10px;
+}
+
+.left-item p {
+  font-size: 13px;
+  padding-bottom: 7px;
+}
+.right-item {
+  width: 33%;
+  margin: 10px;
+}
+.right-item h3 {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.right-item p {
+  font-size: 13px;
+  line-height: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.hellandsilence .right-item a {
+  text-decoration: none;
+  padding: 10px 65px;
+  background-image: url(../img/buttonback1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 14px;
+}
+/* End */
+
+/* Style for night vision section */
+.nightvision {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.nightvision .right-item a {
+  text-decoration: none;
+  padding: 10px 65px;
+  background-image: url(../img/buttonback2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* End */
+/* Style for the album section */
+.thealbum {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  z-index: 2;
+}
+.thealbum .right-item a {
+  text-decoration: none;
+  padding: 10px 65px;
+  background-image: url(../img/buttonback3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* End */
+
+/* style for hill seciton */
+
+.hill {
+  position: relative;
+  z-index: -1;
+}
+
+.image {
+  margin-top: -220px;
+  z-index: -1;
+  background-image: url(../img/hill.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* End */
+/* style for concert tours */
+
+.concert-tours {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.concert-tours h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.concert-tours p {
+  padding-top: 15px;
+  max-width: 60%;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #798285;
+  font-size: 13px;
+}
+/* End */
+
+/* style for smoke mirror tour section */
+
+.smokemirror {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../img/Shore.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.smokemirror .inner-item {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.smokemirror .inner-item hr {
+  max-width: 60%;
+}
+.inner-item-left {
+  width: 33%;
+}
+.inner-item-right {
+  width: 33%;
+}
+
+.smokemirror .inner-item-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.inner-item-details-left {
+  width: 33%;
+}
+.inner-item-details-right {
+  width: 33%;
+}
+
+.inner-item-left p {
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+.inner-item-details-left h3 {
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.inner-item-details-left p {
+  font-size: 13px;
+  color: #798285;
+  line-height: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.inner-item-details-left a {
+  text-decoration: none;
+  padding: 10px 28px;
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  font-size: 11px;
+  font-weight: 600;
+  color: black;
+}
+/* End */
+
+/* style for  letter section*/
+
+.letter .text {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.text h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.text p {
+  color: #798285;
+  padding-top: 15px;
+  max-width: 40%;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 13px;
+}
+.letter .inner-item-first {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.letter .inner-item-first .left-item {
+  background-color: #f5f6f6;
+  margin: 0px;
+}
+.letter .left-item .left-item-inner {
+  padding: 22px;
+}
+.letter .right-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.letter h3 {
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.letter h5 {
+  padding-bottom: 30px;
+}
+.letter p {
+  font-size: 13px;
+  padding-bottom: 15px;
+  color: #798285;
+}
+.letter hr {
+  max-width: 60%;
+}
+.letter .inner-icon-box {
+  display: flex;
+  align-items: center;
+}
+.letter .inner-icon-box .social-icon {
+  display: flex;
+  align-items: center;
+}
+.letter .inner-icon-box .social-icon .text-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.letter .inner-icon-box .social-icon .text-icon li {
+  list-style-type: none;
+  font-size: 12px;
+  margin-right: 10px;
+  color: #798285;
+}
+.letter .inner-icon-box .social-icon .text-icon span {
+  font-size: 12px;
+  color: #798285;
+}
+.letter a {
+  text-decoration: none;
+  padding: 10px 28px;
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  font-size: 11px;
+  font-weight: 600;
+  color: black;
+}
+
+.letter .right-item img {
+  max-width: 100%;
+  height: 100%;
+}
+.letter .left-item img {
+  max-width: 100%;
+  height: 100%;
+}
+.inner-item-second {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.inner-item-second .left-item {
+  margin: 0px;
+}
+.inner-item-second .right-item {
+  background-color: #f5f6f6;
+  margin: 0px;
+}
+.inner-item-second .right-item .right-item-inner {
+  padding: 22px;
+}
+
+.letter .inner-item-third .left-item {
+  background-color: #f5f6f6;
+  margin: 0px;
+}
+
+.inner-item-third {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.inner-item-third .left-item .left-item-inner {
+  padding: 22px;
+}
+/* End */
+
+/* style for slider section */
+
+.slider {
+  overflow: hidden;
+}
+.slider-item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background-image: url(../img/sliderbackground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.slider-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.slider-item .icon li {
+  list-style: none;
+}
+.slider-item .icon img {
+  max-width: 30%;
+}
+
+.slider-item .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60%;
+  color: white;
+}
+.slider-item .text-box h3 {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.slider-item .text-box p {
+  font-size: 13px;
+  max-width: 60%;
+  line-height: 1.3rem;
+}
+.slider-item .text-box span {
+  padding-top: 60px;
+  font-size: 13px;
+}
+/* End */
+
+/* style for image-box */
+
+.image-box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.image-box .first-row {
+  display: flex;
+  justify-content: center;
+  padding: 30px 110px;
+}
+
+.image-box .first-row hr {
+  max-width: 80%;
+}
+
+.image-box .first-row .item-one {
+  width: 22%;
+  height: 100%;
+  margin: 10px;
+  background-image: url(../img/01.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.image-box .first-row .item-two {
+  width: 22%;
+  margin: 10px;
+  background-image: url(../img/02.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.image-box .first-row .item-three {
+  width: 22%;
+  margin: 10px;
+  background-image: url(../img/03.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.image-box h5 {
+  font-weight: 500;
+  padding-bottom: 15px;
+  color: white;
+}
+.image-box p {
+  padding-bottom: 15px;
+  font-size: 12px;
+  color: #798285;
+  line-height: 1.4rem;
+}
+.image-box h3 {
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+  padding: 30px 110px;
+}
+.second-row .item-one {
+  width: 22%;
+  margin: 10px;
+  background-image: url(../img/04.png);
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 50vh;
+}
+.second-row .item-two {
+  width: 22%;
+  margin: 10px;
+  background-image: url(../img/05.png);
+  background-position: center;
+  background-size: 100% 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 50vh;
+}
+.second-row .item-three {
+  width: 22%;
+  margin: 10px;
+  background-image: url(../img/06.png);
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 50vh;
+}
+/* End */
+/* style for upcoming section */
+.upcoming {
+  background-image: url(../img/bridge.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+}
+.upcoming .inner-item {
+  display: flex;
+  justify-content: center;
+}
+.upcoming .inner-item .left-item {
+  width: 33%;
+}
+.upcoming .inner-item .right-items {
+  width: 33%;
+}
+.upcoming .inner-item .right-item h1 {
+  padding-bottom: 60px;
+}
+.upcoming .vertical {
+  border-left: 2px solid black;
+  height: 50px;
+  margin-left: 30px;
+}
+.upcoming .horizontal {
+  border-bottom: 2px solid black;
+  max-width: 25%;
+}
+.upcoming .verticalsecond {
+  height: 110px;
+  border-left: 2px solid black;
+  margin-left: 30px;
+}
+.upcoming .vertical:nth-of-type(3) {
+  height: 80px;
+}
+.upcoming p {
+  padding-top: 10px;
+}
+.upcoming .paragraph {
+  padding: 0px;
+}
+
+/* End */
+/* style for history */
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.history h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.history p {
+  padding-top: 15px;
+  max-width: 50%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/* End */
+
+/* style for date */
+
+.date {
+  position: relative;
+  background-image: url(../img/Road.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.date .inner-date {
+  padding-top: 40px;
+  align-items: start;
+
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+.horizontal {
+  border-top: 2px solid black;
+  max-width: 25%;
+}
+.date p {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  max-width: 20%;
+  text-align: center;
+}
+
+/* End */
+/* style for footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/tree-footer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+footer .left-item {
+  width: 33%;
+}
+footer .right-item {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .right-item input {
+  display: block;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+footer .right-item h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+footer .right-item button {
+  border: none;
+  font-weight: 700;
+}
+/* End */
