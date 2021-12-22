@@ -79,10 +79,11 @@ header img {
   color: #a97f72;
 }
 .discography p {
-  padding-top: 15px;
+  padding-top: 13px;
   max-width: 50%;
   line-height: 1.5rem;
   text-align: center;
+  font-size: 13px;
   color: #afb4b6;
 }
 /* End */
@@ -206,7 +207,7 @@ header img {
   color: #62a2ad;
 }
 .concert-tours p {
-  padding-top: 15px;
+  padding-top: 14px;
   max-width: 60%;
   line-height: 1.5rem;
   text-align: center;
@@ -645,6 +646,7 @@ header img {
   line-height: 1.5rem;
   color: #99a0a2;
   text-align: center;
+  font-size: 14px;
 }
 
 /* End */
@@ -732,7 +734,7 @@ footer .right-item {
 }
 footer .right-item input {
   display: block;
-  width: 60%;
+  width: 90%;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
