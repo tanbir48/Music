@@ -18,6 +18,8 @@ header {
   background-position: center;
   background-size: cover;
   min-height: 110vh;
+  text-align: center;
+  position: relative;
 }
 header nav {
   display: flex;
@@ -52,6 +54,14 @@ header nav li a:hover {
 header nav .button {
   display: flex;
 }
+
+header img {
+  position: absolute;
+  max-width: 20%;
+  max-height: 30%;
+  top: 30%;
+  left: 45%;
+}
 /* End */
 
 /* style for discovery section */
@@ -66,12 +76,14 @@ header nav .button {
   font-size: 32px;
   font-weight: 400;
   letter-spacing: 5px;
+  color: #a97f72;
 }
 .discography p {
   padding-top: 15px;
   max-width: 50%;
   line-height: 1.5rem;
   text-align: center;
+  color: #afb4b6;
 }
 /* End */
 
@@ -105,6 +117,7 @@ header nav .button {
   font-size: 13px;
   line-height: 1.2rem;
   padding-bottom: 20px;
+  color: #afb4b6;
 }
 
 .hellandsilence .right-item a {
@@ -190,6 +203,7 @@ header nav .button {
   font-size: 32px;
   font-weight: 400;
   letter-spacing: 5px;
+  color: #62a2ad;
 }
 .concert-tours p {
   padding-top: 15px;
@@ -438,6 +452,7 @@ header nav .button {
 }
 .slider-item .text-box p {
   font-size: 13px;
+  color: #acacac;
   max-width: 60%;
   line-height: 1.3rem;
 }
@@ -568,6 +583,12 @@ header nav .button {
   display: flex;
   justify-content: center;
 }
+.upcoming .inner-item .right-item h1 {
+  padding-bottom: 60px;
+  color: #42717e;
+  font-size: 32px;
+  font-weight: 400;
+}
 .upcoming .inner-item .left-item {
   width: 33%;
 }
@@ -576,6 +597,8 @@ header nav .button {
 }
 .upcoming .inner-item .right-item h1 {
   padding-bottom: 60px;
+  color: #42717e;
+  font-weight: 400;
 }
 .upcoming .vertical {
   border-left: 2px solid black;
@@ -583,7 +606,7 @@ header nav .button {
   margin-left: 30px;
 }
 .upcoming .horizontal {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black !important;
   max-width: 25%;
 }
 .upcoming .verticalsecond {
@@ -613,12 +636,14 @@ header nav .button {
 .history h1 {
   font-size: 32px;
   font-weight: 400;
+  color: #5b5c5a;
   letter-spacing: 5px;
 }
 .history p {
   padding-top: 15px;
   max-width: 50%;
   line-height: 1.5rem;
+  color: #99a0a2;
   text-align: center;
 }
 
@@ -635,16 +660,16 @@ header nav .button {
   min-height: 100vh;
 }
 .date .inner-date {
-  padding-top: 40px;
-  align-items: start;
-
   display: flex;
   justify-content: space-around;
+  padding-top: 40px;
+  align-items: start;
   min-height: 100vh;
 }
-.horizontal {
-  border-top: 2px solid black;
-  max-width: 25%;
+.line {
+  border-bottom: 2px solid black;
+  width: 53%;
+  margin-left: -92px;
 }
 .date p {
   position: absolute;
@@ -652,8 +677,38 @@ header nav .button {
   left: 40%;
   max-width: 20%;
   text-align: center;
+  overflow: hidden;
+}
+.nav-item {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  max-width: 70%;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-item h2 {
+  font-weight: 300;
 }
 
+/* End */
+
+/* style for slick slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  padding-top: 150px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
 /* End */
 /* style for footer */
 footer {
@@ -677,19 +732,39 @@ footer .right-item {
 }
 footer .right-item input {
   display: block;
+  width: 60%;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
+  background: transparent;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
 }
 
 footer .right-item h1 {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 300;
 }
 footer .right-item button {
   border: none;
   font-weight: 700;
+  background-color: transparent !important;
 }
+
+footer strike {
+  width: 40%;
+}
+
+footer .formandicon {
+  display: flex;
+}
+footer .icon {
+  padding-left: 15px;
+  display: flex;
+  border-left: 1px solid black;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+
 /* End */

@@ -41,6 +41,13 @@
     min-height: 90vh;
     min-width: 50vw;
   }
+  header img {
+    position: absolute;
+    max-width: 50%;
+    max-height: 30%;
+    top: 30%;
+    left: 39%;
+  }
   header nav li a {
     text-decoration: none;
     color: #727272;
@@ -127,6 +134,13 @@
     padding: 20px;
     min-height: 42vh;
   }
+  .history p {
+    padding-top: 15px;
+    max-width: 60%;
+    line-height: 1.5rem;
+    color: #99a0a2;
+    text-align: center;
+  }
   .second-row {
     padding: 0px;
   }
@@ -192,7 +206,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 60vh;
     padding-top: 50px;
   }
 }
@@ -210,10 +224,26 @@
 }
 
 @media (max-width: 576px) {
+  header img {
+    position: absolute;
+    max-width: 60%;
+    max-height: 40%;
+    top: 30%;
+    left: 31%;
+  }
+  header nav li a {
+    text-decoration: none;
+    color: #727272;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+
   .hellandsilence {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin-top: 20px;
   }
   .discography {
     padding: 40px 10px;
@@ -291,7 +321,7 @@
     font-size: 13px;
   }
   .text h1 {
-    font-size: 19px;
+    font-size: 18px;
   }
   .text p {
     color: #798285;
@@ -463,6 +493,15 @@
   .upcoming .inner-item .right-item {
     width: 100%;
   }
+  .upcoming .inner-item .right-item h1 {
+    padding-bottom: 60px;
+    color: #42717e;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .history h1 {
+    font-size: 20px;
+  }
   .history {
     display: flex;
     flex-direction: column;
@@ -498,6 +537,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 60vh;
+  }
+  footer .right-item h1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
   }
   footer .right-item h1 {
     font-size: 25px;

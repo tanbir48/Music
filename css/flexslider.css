@@ -162,6 +162,7 @@ html[xmlns] .flexslider .slides {
 }
 .flex-direction-nav .flex-next {
   right: -50px;
+
   text-align: center;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
@@ -188,6 +189,7 @@ html[xmlns] .flexslider .slides {
   display: block;
   width: 20px;
   height: 20px;
+
   position: absolute;
   bottom: 5px;
   left: 10px;
@@ -195,12 +197,12 @@ html[xmlns] .flexslider .slides {
   z-index: 10;
   overflow: hidden;
   cursor: pointer;
-  color: #000;
 }
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
   display: inline-block;
+
   content: "\f053";
 }
 .flex-pauseplay a:hover {
