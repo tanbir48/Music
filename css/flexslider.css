@@ -282,3 +282,10 @@ html[xmlns] .flexslider .slides {
     text-align: center;
   }
 }
+@media (max-width: 576px) {
+  .flex-direction-nav .flex-next {
+    top: 30% !important;
+    right: -50px;
+    text-align: center;
+  }
+}
