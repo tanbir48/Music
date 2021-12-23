@@ -11,9 +11,9 @@ button.addEventListener("click", function () {
 });
 
 var crossbutton = document.getElementById("nav-button-cross");
-crossbutton.addEventListener("click", function (e) {
+crossbutton.addEventListener("click", function () {
   var menu = document.getElementById("menu");
   menu.style.display = "none";
   crossbutton.style.display = " ";
-  e.preventDefault();
+  crossbutton.onclick = window.location.reload();
 });

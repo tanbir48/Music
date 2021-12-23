@@ -210,13 +210,15 @@
     padding-top: 50px;
   }
 }
-@media (max-width: 630px) {
+@media (max-width: 640px) {
   header nav {
     justify-content: start;
   }
+  #mobile-view-bar {
+    display: block;
+  }
   #menu {
     display: none;
-    margin-top: 20px;
   }
   header nav .mobile-view-bar {
     display: block;
@@ -224,18 +226,30 @@
 }
 
 @media (max-width: 576px) {
+  #mobile-view-bar {
+    display: block;
+  }
   header img {
     position: absolute;
     max-width: 60%;
     max-height: 40%;
     top: 30%;
     left: 31%;
+    z-index: 1;
+  }
+  header nav #menu {
+    margin-bottom: 10px;
+    z-index: 2;
+  }
+  header nav li {
+    margin-bottom: 10px;
   }
   header nav li a {
     text-decoration: none;
     color: #727272;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     margin-right: 10px;
+
     font-size: 15px;
   }
 
