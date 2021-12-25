@@ -28,14 +28,13 @@ header nav {
   justify-content: center;
   background-color: #e5e6e65d;
 }
-#mobile-view-bar {
+#nav-button {
   display: none;
 }
-#mobile-view-cross {
-  display: none;
-}
+
 header nav ul {
   display: flex;
+  justify-content: center;
 }
 
 header nav li {
@@ -367,21 +366,24 @@ header img {
 }
 .letter .inner-icon-box .social-icon .text-icon span {
   list-style-type: none;
-  font-size: 12px;
-  margin-right: 10px;
+  font-size: 10px;
+  margin-right: 5px;
   color: #798285;
 }
 .letter .inner-icon-box .social-icon .text-icon span {
-  font-size: 12px;
+  font-size: 10px;
   color: #798285;
 }
 .letter a {
   text-decoration: none;
-  padding: 10px 28px;
+  min-width: 120px;
+  text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.342);
   font-size: 11px;
   font-weight: 600;
   color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .letter .right-item img {
@@ -497,7 +499,6 @@ header img {
 
 .image-box .first-row .item-one {
   width: 22%;
-  height: 100%;
   margin: 10px;
   background-image: url(../img/01.png);
   background-position: center;

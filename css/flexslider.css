@@ -142,6 +142,20 @@ html[xmlns] .flexslider .slides {
 
   text-align: center;
 }
+
+.flex-direction-nav a:before {
+  font-family: "FontAwesome";
+  font-size: 17px;
+  margin-top: -10px;
+  margin-left: -31px;
+  display: inline-block;
+  content: "\f053";
+  color: black;
+}
+.flex-direction-nav a.flex-next:before {
+  content: "\f054";
+  margin-left: 20px;
+}
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 1;
   color: white;
@@ -164,6 +178,7 @@ html[xmlns] .flexslider .slides {
   border: 88px solid black;
   border-top-color: transparent;
   border-right-color: white;
+  content: "\f001";
   border-bottom-color: transparent;
   border-left-color: transparent;
 }

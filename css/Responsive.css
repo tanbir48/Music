@@ -17,6 +17,42 @@
     margin-right: 10px;
     font-size: 12px;
   }
+  .letter .inner-icon-box .social-icon .text-icon span {
+    list-style-type: none;
+    font-size: 10px;
+    margin-right: 3px;
+    color: #798285;
+  }
+  .letter .inner-icon-box .social-icon {
+    display: flex;
+    align-items: start;
+    min-width: 5px !important;
+  }
+}
+
+@media (max-width: 1120px) {
+  .letter .inner-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .letter a {
+    text-decoration: none;
+    min-width: 120px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    font-size: 11px;
+    font-weight: 600;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+  }
+  .letter .inner-icon-box .social-icon .text-icon:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -33,6 +69,9 @@
 }
 
 @media (max-width: 768px) {
+  #menu {
+    text-align: center;
+  }
   header {
     background-image: url(../img/Johndoe.png);
     background-repeat: no-repeat;
@@ -100,7 +139,6 @@
   }
   .image-box .first-row .item-one {
     width: 22%;
-    height: 100%;
     margin: 10px;
     background-image: url(../img/01.png);
     background-position: center;
@@ -112,7 +150,6 @@
   }
   .image-box .first-row .item-two {
     width: 22%;
-    height: 100%;
     margin: 10px;
     background-image: url(../img/02.png);
     background-position: center;
@@ -124,7 +161,6 @@
   }
   .image-box .first-row .item-three {
     width: 22%;
-    height: 100%;
     margin: 10px;
     background-image: url(../img/03.png);
     background-position: center;
@@ -146,7 +182,6 @@
   }
   .second-row .item-one {
     width: 22%;
-    height: 100%;
     margin: 10px;
     background-image: url(../img/04.png);
     background-position: center;
@@ -158,7 +193,6 @@
   }
   .second-row .item-two {
     width: 22%;
-    height: 100%;
     margin: 10px;
     background-image: url(../img/05.png);
     background-position: center;
@@ -170,7 +204,6 @@
   }
   .second-row .item-three {
     width: 22%;
-    height: 100%;
     margin: 10px;
     background-image: url(../img/06.png);
     background-position: center;
@@ -214,21 +247,20 @@
   header nav {
     justify-content: start;
   }
-  #mobile-view-bar {
+  #nav-button {
     display: block;
   }
   #menu {
     display: none;
   }
-  header nav .mobile-view-bar {
-    display: block;
+  .menu.show {
+    display: flex !important;
+    flex-direction: column;
+    z-index: 2;
   }
 }
 
 @media (max-width: 576px) {
-  #mobile-view-bar {
-    display: block;
-  }
   header img {
     position: absolute;
     max-width: 50%;
