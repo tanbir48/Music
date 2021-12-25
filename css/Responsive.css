@@ -94,11 +94,30 @@
     margin-right: 10px;
     font-size: 10px;
   }
+  .discography {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .hellandsilence {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
   .left-item {
     width: 40%;
   }
   .right-item {
     width: 40%;
+  }
+  .concert-tours {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
   }
   .concert-tours h1 {
     font-size: 27px;
@@ -114,6 +133,13 @@
   }
   .smokemirror .inner-item-details-right {
     width: 40%;
+  }
+  .letter .text {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
   }
   .text h1 {
     font-size: 27px;
@@ -221,10 +247,24 @@
   .upcoming .inner-item .left-item {
     width: 40%;
   }
+  .upcoming .verticalsecond {
+    height: 110px;
+    border-left: 2px solid black;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
   .upcoming .inner-item .right-item {
     width: 40%;
   }
-  .history h1 {
+  .date {
+    position: relative;
+    background-image: url(../img/Road.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+  }
+  s .history h1 {
     font-size: 27px;
   }
   .inner-date h2 {
@@ -292,7 +332,7 @@
     margin-top: 20px;
   }
   .discography {
-    padding: 40px 10px;
+    padding: 0px 10px;
   }
   .discography p {
     padding-top: 15px;
@@ -358,6 +398,13 @@
     width: 100%;
     padding: 2px;
   }
+  .concert-tours {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
   .concert-tours p {
     padding-top: 15px;
     max-width: 101%;
@@ -390,7 +437,7 @@
   .inner-item-third {
     display: block;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .slider-item .text-box h3 {
     padding-bottom: 10px;
@@ -403,9 +450,7 @@
     max-width: 100%;
     line-height: 1.3rem;
   }
-  .image-box {
-    padding: 50px 10px;
-  }
+
   .image-box .first-row {
     display: flex;
     flex-direction: column;
@@ -512,7 +557,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 10px;
+    padding: 10px 10px;
   }
   .letter .inner-item-third .left-item {
     background-color: #f5f6f6;
@@ -538,6 +583,12 @@
   }
   .upcoming .inner-item .right-item {
     width: 100%;
+  }
+  .upcoming .verticalsecond {
+    height: 110px;
+    border-left: 2px solid black;
+    margin-left: 30px;
+    margin-bottom: 10px;
   }
   .upcoming .inner-item .right-item h1 {
     padding-bottom: 60px;
@@ -573,6 +624,7 @@
   }
   footer {
     display: flex;
+    padding-top: 0px;
     width: 100%;
     justify-content: center;
     align-items: start;

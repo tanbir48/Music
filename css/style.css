@@ -429,6 +429,8 @@ header img {
 
 .slider {
   overflow: hidden;
+  padding-top: 30px;
+  margin-bottom: -30px;
 }
 .slider-item {
   display: flex;
@@ -483,8 +485,8 @@ header img {
 /* style for image-box */
 
 .image-box {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .image-box .first-row {
@@ -552,7 +554,7 @@ header img {
 .second-row {
   display: flex;
   justify-content: center;
-  padding: 30px 110px;
+  padding: 0px 110px;
 }
 .second-row .item-one {
   width: 22%;
@@ -590,6 +592,7 @@ header img {
 /* End */
 /* style for upcoming section */
 .upcoming {
+  margin-top: 50px;
   background-image: url(../img/bridge.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -608,6 +611,12 @@ header img {
 }
 .upcoming .inner-item .left-item {
   width: 33%;
+}
+.upcoming .verticalsecond {
+  height: 110px;
+  border-left: 2px solid black;
+  margin-left: 30px;
+  margin-bottom: 15px;
 }
 .upcoming .inner-item .right-items {
   width: 33%;
@@ -675,7 +684,8 @@ header img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 70vh;
+  padding-bottom: 40px;
 }
 .date .inner-date {
   display: flex;
